@@ -1,5 +1,4 @@
-import transporter from "../config/emailconfig.js";
-
+import transporter from '../config/emailConfig.js'
 export const sendContactFormEmail = async (name, email, message) => {
   const mailOptions = {
     from: email,
